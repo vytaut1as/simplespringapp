@@ -1,0 +1,18 @@
+git init // prideti aplanka prie git pavaldumo
+git config --global user.name "Vytautas" // pateikti duomenis apie save
+git config --global core.editor <pvz notepad>
+git --help
+git status
+git log
+git add <failo pavad>
+git mv <f pavad> <new f pavad>
+git config --global --list // perziureti registruota inf
+git reset --hard <hash pirmi 7 simboliai> // trina commit
+$ git commit -m "tipo rasyti komentara" // komentuoti pakeitimus
+git push origin master // issiusti commitintus i nuotolini git
+git pull origin master // atsisiusti is nutolusio git
+git branch <testing= vardas> // prideda nauja saka
+git chekout <testing= vardas> // pakeisti saka
+git remote add sasfaklaivosaspvz https://github.com/vytaut1as/SasFakLaivoSasPvz.git
+git push sasfaklaivosaspvz master
+git config --global core.excludesfile ~/.gitignore_global // add global gitignore for all git repository on you komputer
